@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DD2E75A1C963B7900EED402 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD2E7591C963B7900EED402 /* AppDelegate.swift */; };
+		2DD2E75C1C963B7900EED402 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD2E75B1C963B7900EED402 /* ViewController.swift */; };
+		2DD2E75E1C963B7900EED402 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DD2E75D1C963B7900EED402 /* Assets.xcassets */; };
+		2DD2E7611C963B7900EED402 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DD2E75F1C963B7900EED402 /* Main.storyboard */; };
+		2DD2E76C1C963B7900EED402 /* Deep_Work_PlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD2E76B1C963B7900EED402 /* Deep_Work_PlannerTests.swift */; };
+		2DD2E7771C963B7900EED402 /* Deep_Work_PlannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD2E7761C963B7900EED402 /* Deep_Work_PlannerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DD2E7681C963B7900EED402 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DD2E74E1C963B7900EED402 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DD2E7551C963B7900EED402;
+			remoteInfo = "Deep Work Planner";
+		};
+		2DD2E7731C963B7900EED402 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DD2E74E1C963B7900EED402 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DD2E7551C963B7900EED402;
+			remoteInfo = "Deep Work Planner";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2DD2E7561C963B7900EED402 /* Deep Work Planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Deep Work Planner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DD2E7591C963B7900EED402 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2DD2E75B1C963B7900EED402 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2DD2E75D1C963B7900EED402 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2DD2E7601C963B7900EED402 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2DD2E7621C963B7900EED402 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DD2E7671C963B7900EED402 /* Deep Work PlannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Deep Work PlannerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DD2E76B1C963B7900EED402 /* Deep_Work_PlannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deep_Work_PlannerTests.swift; sourceTree = "<group>"; };
+		2DD2E76D1C963B7900EED402 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DD2E7721C963B7900EED402 /* Deep Work PlannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Deep Work PlannerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DD2E7761C963B7900EED402 /* Deep_Work_PlannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deep_Work_PlannerUITests.swift; sourceTree = "<group>"; };
+		2DD2E7781C963B7900EED402 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DD2E7531C963B7900EED402 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DD2E7641C963B7900EED402 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DD2E76F1C963B7900EED402 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DD2E74D1C963B7900EED402 = {
+			isa = PBXGroup;
+			children = (
+				2DD2E7581C963B7900EED402 /* Deep Work Planner */,
+				2DD2E76A1C963B7900EED402 /* Deep Work PlannerTests */,
+				2DD2E7751C963B7900EED402 /* Deep Work PlannerUITests */,
+				2DD2E7571C963B7900EED402 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2DD2E7571C963B7900EED402 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DD2E7561C963B7900EED402 /* Deep Work Planner.app */,
+				2DD2E7671C963B7900EED402 /* Deep Work PlannerTests.xctest */,
+				2DD2E7721C963B7900EED402 /* Deep Work PlannerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DD2E7581C963B7900EED402 /* Deep Work Planner */ = {
+			isa = PBXGroup;
+			children = (
+				2DD2E7591C963B7900EED402 /* AppDelegate.swift */,
+				2DD2E75B1C963B7900EED402 /* ViewController.swift */,
+				2DD2E75D1C963B7900EED402 /* Assets.xcassets */,
+				2DD2E75F1C963B7900EED402 /* Main.storyboard */,
+				2DD2E7621C963B7900EED402 /* Info.plist */,
+			);
+			path = "Deep Work Planner";
+			sourceTree = "<group>";
+		};
+		2DD2E76A1C963B7900EED402 /* Deep Work PlannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				2DD2E76B1C963B7900EED402 /* Deep_Work_PlannerTests.swift */,
+				2DD2E76D1C963B7900EED402 /* Info.plist */,
+			);
+			path = "Deep Work PlannerTests";
+			sourceTree = "<group>";
+		};
+		2DD2E7751C963B7900EED402 /* Deep Work PlannerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2DD2E7761C963B7900EED402 /* Deep_Work_PlannerUITests.swift */,
+				2DD2E7781C963B7900EED402 /* Info.plist */,
+			);
+			path = "Deep Work PlannerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DD2E7551C963B7900EED402 /* Deep Work Planner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DD2E77B1C963B7900EED402 /* Build configuration list for PBXNativeTarget "Deep Work Planner" */;
+			buildPhases = (
+				2DD2E7521C963B7900EED402 /* Sources */,
+				2DD2E7531C963B7900EED402 /* Frameworks */,
+				2DD2E7541C963B7900EED402 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Deep Work Planner";
+			productName = "Deep Work Planner";
+			productReference = 2DD2E7561C963B7900EED402 /* Deep Work Planner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2DD2E7661C963B7900EED402 /* Deep Work PlannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DD2E77E1C963B7900EED402 /* Build configuration list for PBXNativeTarget "Deep Work PlannerTests" */;
+			buildPhases = (
+				2DD2E7631C963B7900EED402 /* Sources */,
+				2DD2E7641C963B7900EED402 /* Frameworks */,
+				2DD2E7651C963B7900EED402 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DD2E7691C963B7900EED402 /* PBXTargetDependency */,
+			);
+			name = "Deep Work PlannerTests";
+			productName = "Deep Work PlannerTests";
+			productReference = 2DD2E7671C963B7900EED402 /* Deep Work PlannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2DD2E7711C963B7900EED402 /* Deep Work PlannerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DD2E7811C963B7900EED402 /* Build configuration list for PBXNativeTarget "Deep Work PlannerUITests" */;
+			buildPhases = (
+				2DD2E76E1C963B7900EED402 /* Sources */,
+				2DD2E76F1C963B7900EED402 /* Frameworks */,
+				2DD2E7701C963B7900EED402 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DD2E7741C963B7900EED402 /* PBXTargetDependency */,
+			);
+			name = "Deep Work PlannerUITests";
+			productName = "Deep Work PlannerUITests";
+			productReference = 2DD2E7721C963B7900EED402 /* Deep Work PlannerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DD2E74E1C963B7900EED402 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Juan Carlos Fontecha";
+				TargetAttributes = {
+					2DD2E7551C963B7900EED402 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					2DD2E7661C963B7900EED402 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 2DD2E7551C963B7900EED402;
+					};
+					2DD2E7711C963B7900EED402 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 2DD2E7551C963B7900EED402;
+					};
+				};
+			};
+			buildConfigurationList = 2DD2E7511C963B7900EED402 /* Build configuration list for PBXProject "Deep Work Planner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2DD2E74D1C963B7900EED402;
+			productRefGroup = 2DD2E7571C963B7900EED402 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DD2E7551C963B7900EED402 /* Deep Work Planner */,
+				2DD2E7661C963B7900EED402 /* Deep Work PlannerTests */,
+				2DD2E7711C963B7900EED402 /* Deep Work PlannerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DD2E7541C963B7900EED402 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DD2E75E1C963B7900EED402 /* Assets.xcassets in Resources */,
+				2DD2E7611C963B7900EED402 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DD2E7651C963B7900EED402 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DD2E7701C963B7900EED402 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DD2E7521C963B7900EED402 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DD2E75C1C963B7900EED402 /* ViewController.swift in Sources */,
+				2DD2E75A1C963B7900EED402 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DD2E7631C963B7900EED402 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DD2E76C1C963B7900EED402 /* Deep_Work_PlannerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DD2E76E1C963B7900EED402 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DD2E7771C963B7900EED402 /* Deep_Work_PlannerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DD2E7691C963B7900EED402 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DD2E7551C963B7900EED402 /* Deep Work Planner */;
+			targetProxy = 2DD2E7681C963B7900EED402 /* PBXContainerItemProxy */;
+		};
+		2DD2E7741C963B7900EED402 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DD2E7551C963B7900EED402 /* Deep Work Planner */;
+			targetProxy = 2DD2E7731C963B7900EED402 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2DD2E75F1C963B7900EED402 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DD2E7601C963B7900EED402 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2DD2E7791C963B7900EED402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2DD2E77A1C963B7900EED402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2DD2E77C1C963B7900EED402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Deep Work Planner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jcfontecha.Deep-Work-Planner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2DD2E77D1C963B7900EED402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Deep Work Planner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jcfontecha.Deep-Work-Planner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2DD2E77F1C963B7900EED402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Deep Work PlannerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jcfontecha.Deep-Work-PlannerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Deep Work Planner.app/Contents/MacOS/Deep Work Planner";
+			};
+			name = Debug;
+		};
+		2DD2E7801C963B7900EED402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Deep Work PlannerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jcfontecha.Deep-Work-PlannerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Deep Work Planner.app/Contents/MacOS/Deep Work Planner";
+			};
+			name = Release;
+		};
+		2DD2E7821C963B7900EED402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Deep Work PlannerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jcfontecha.Deep-Work-PlannerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Deep Work Planner";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2DD2E7831C963B7900EED402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Deep Work PlannerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jcfontecha.Deep-Work-PlannerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Deep Work Planner";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DD2E7511C963B7900EED402 /* Build configuration list for PBXProject "Deep Work Planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DD2E7791C963B7900EED402 /* Debug */,
+				2DD2E77A1C963B7900EED402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DD2E77B1C963B7900EED402 /* Build configuration list for PBXNativeTarget "Deep Work Planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DD2E77C1C963B7900EED402 /* Debug */,
+				2DD2E77D1C963B7900EED402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2DD2E77E1C963B7900EED402 /* Build configuration list for PBXNativeTarget "Deep Work PlannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DD2E77F1C963B7900EED402 /* Debug */,
+				2DD2E7801C963B7900EED402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2DD2E7811C963B7900EED402 /* Build configuration list for PBXNativeTarget "Deep Work PlannerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DD2E7821C963B7900EED402 /* Debug */,
+				2DD2E7831C963B7900EED402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DD2E74E1C963B7900EED402 /* Project object */;
+}
